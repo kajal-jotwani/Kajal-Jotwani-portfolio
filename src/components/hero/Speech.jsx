@@ -12,9 +12,9 @@ const Speech = () => {
         <TypeAnimation
           sequence={[
             1000,
-            "Same substring at the start will only be typed out once, initially",
+            "Hello i'm kajal Jotwani a second year computer science student",
             1000,
-            "Lorem ipsum dolor sit amet lerinat consectetur adipisicing. ",
+            "I'm passionate about contributing to opensource ",
             1000,
           ]}
           wrapper="span"
@@ -24,7 +24,7 @@ const Speech = () => {
           repeat={Infinity}
         />
       </div>
-      <img src="/man.png" alt="" />
+      <img src="/profile.png" alt="" />
     </motion.div>
   );
 };

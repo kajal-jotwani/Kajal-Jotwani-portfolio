@@ -108,16 +108,16 @@ const Hero = () => {
           animate="animate"
           className="follow"
         >
-          <motion.a variants={followVariants} href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
-            <img src="/instagram.png" alt="Instagram" />
+          <motion.a variants={followVariants} href="https://github.com/kajal-jotwani" target="_blank" rel="noopener noreferrer">
+            <img src="/Github.png" alt="Github" />
           </motion.a>
 
-          <motion.a variants={followVariants} href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
-            <img src="/facebook.png" alt="Facebook" />
+          <motion.a variants={followVariants} href="https://www.linkedin.com/in/kajal-jotwani/" target="_blank" rel="noopener noreferrer">
+            <img src="/Linkdin.png" alt="Linkdin" />
           </motion.a>
 
-          <motion.a variants={followVariants} href="https://www.youtube.com/@yourchannelname" target="_blank" rel="noopener noreferrer">
-            <img src="/youtube.png" alt="YouTube" />
+          <motion.a variants={followVariants} href="https://x.com/kajal_jotwani06" target="_blank" rel="noopener noreferrer">
+            <img src="/Twitter.png" alt="Twitter" />
           </motion.a>
 
           <motion.div variants={followVariants} className="followTextContainer">
@@ -133,12 +133,8 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className="certificate"
         >
-          <img src="/certificate.png" alt="" />
-          LMA CERTIFICED
-          <br />
-          PROFESSIONAL
-          <br />
-          UI DESIGNER
+          <img src="/We.png" alt="" />
+          Google We Scholar
         </motion.div>
         {/* CONTACT BUTTON */}
         <motion.a
@@ -202,7 +198,7 @@ const Hero = () => {
           </Suspense>
         </Canvas>
         <div className="hImg">
-          <img src="/hero.png" alt="" />
+          <img src="/image.png" alt="" />
         </div>
       </div>
     </div>
